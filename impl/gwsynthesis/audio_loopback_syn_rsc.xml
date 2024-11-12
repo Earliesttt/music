@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="RT_AudioPS" Register="71" Lut="42">
+    <SubModule name="Gowin_PLL"/>
+    <SubModule name="WM8960_Init" Register="20" Alu="15" Lut="10">
+        <SubModule name="I2C_Init_Dev" Register="10" Lut="22">
+            <SubModule name="wm8960_init_table" Register="8" Lut="22" Bsram="1"/>
+            <SubModule name="i2c_control" Register="25" Lut="73">
+                <SubModule name="i2c_bit_shift" Register="23" Lut="80"/>
+            </SubModule>
+        </SubModule>
+    </SubModule>
+    <SubModule name="gw_gao_inst_0" Register="290" Alu="10" Lut="389" Bsram="5"/>
+    <SubModule name="i2s_rx" Register="81" Lut="71">
+        <SubModule name="adc_fifo" Register="32">
+            <SubModule name="async_fifo_ctrl_inst" Register="75" Alu="16" Lut="59"/>
+            <SubModule name="dpram_inst" Bsram="1"/>
+        </SubModule>
+    </SubModule>
+    <SubModule name="i2s_tx" Register="46" Lut="48">
+        <SubModule name="dac_fifo" Register="32">
+            <SubModule name="async_fifo_ctrl_inst" Register="75" Alu="16" Lut="58"/>
+            <SubModule name="dpram_inst" Bsram="1"/>
+        </SubModule>
+    </SubModule>
+    <SubModule name="volume_control" Register="17" Lut="17">
+        <SubModule name="volume_up_key_filter" Register="34" Lut="54"/>
+        <SubModule name="volume_down_key_filter" Register="34" Lut="56"/>
+    </SubModule>
+    <SubModule name="reverb_top_inst">
+        <SubModule name="reverb_left" Register="28" Alu="26" Lut="8">
+            <SubModule name="fifo_sc_top_v2_inst" Register="24" Alu="10" Lut="46" Bsram="1"/>
+        </SubModule>
+        <SubModule name="reverb_right" Register="28" Alu="26" Lut="7">
+            <SubModule name="fifo_sc_top_v2_inst" Register="24" Alu="10" Lut="46" Bsram="1"/>
+        </SubModule>
+    </SubModule>
+    <SubModule name="iir" Register="113" Lut="63">
+        <SubModule name="IIR_Filter_Top_left" Register="577" Alu="122" Lut="308" MULTALU27X18="2" Bsram="1"/>
+        <SubModule name="IIR_Filter_Top_right" Register="577" Alu="122" Lut="308" MULTALU27X18="2" Bsram="1"/>
+    </SubModule>
+    <SubModule name="uart_data_rx" Register="55" Lut="75">
+        <SubModule name="uart_byte_rx" Register="71" Lut="122"/>
+    </SubModule>
+    <SubModule name="uart_data_tx" Register="9" Lut="15">
+        <SubModule name="uart_byte_tx" Register="24" Lut="44"/>
+    </SubModule>
+    <SubModule name="cmd_ctrl_inst" Register="7"/>
+    <SubModule name="Gowin_RAM16SDP" Lut="15" Ssram="4"/>
+</Module>

@@ -1,0 +1,13 @@
+[General]
+ipc_version=4
+file=gowin_ram16sdp
+module=Gowin_RAM16SDP
+target_device=gw5a25a-008
+type=ssram_ram16sdp
+version=1.0
+
+[Config]
+DEPTH=64
+LANG=0
+MEM_FILE=../cmd_init_table.mi
+WIDTH=18

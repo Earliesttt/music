@@ -1,0 +1,87 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v'
+Analyzing included file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\static_macro_define.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":657)
+Back to file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":657)
+Analyzing included file 'define.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":657)
+Back to file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":657)
+Analyzing included file 'define.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":657)
+Back to file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":657)
+Analyzing included file 'parameter.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":657)
+Back to file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":657)
+Undeclared symbol '**', assumed default net type '**'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+Undeclared symbol '**', assumed default net type '**'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+Analyzing included file 'define.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":657)
+Back to file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":657)
+Analyzing included file 'parameter.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":657)
+Back to file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":657)
+Analyzing Verilog file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top_wrap.v'
+Analyzing included file 'define.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top_wrap.v":12)
+Back to file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top_wrap.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top_wrap.v":12)
+Analyzing included file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\static_macro_define.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top_wrap.v":13)
+Back to file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top_wrap.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top_wrap.v":13)
+Analyzing included file 'parameter.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top_wrap.v":36)
+Back to file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top_wrap.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top_wrap.v":36)
+Analyzing Verilog file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\static_macro_define.v'
+Compiling module 'IIR_Filter_Top'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top_wrap.v":15)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+WARN  (EX3791) : Expression size ** truncated to fit in target size **("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+Extracting RAM for identifier '**'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+WARN  (EX3791) : Expression size ** truncated to fit in target size **("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+Extracting RAM for identifier '**'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+WARN  (EX3791) : Expression size ** truncated to fit in target size **("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+WARN  (EX3791) : Expression size ** truncated to fit in target size **("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+WARN  (EX3791) : Expression size ** truncated to fit in target size **("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+WARN  (EX3791) : Expression size ** truncated to fit in target size **("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+WARN  (EX1998) : Net '**' does not have a driver("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 18 for port 'coeff_a'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top_wrap.v":67)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 18 for port 'coeff_b'("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top_wrap.v":68)
+NOTE  (EX0101) : Current top module is "IIR_Filter_Top"
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input coeff_set is unused("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top_wrap.v":45)
+WARN  (CV0020) : Input coeff_a[31:18] is unused("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top_wrap.v":46)
+WARN  (CV0020) : Input coeff_b[31:18] is unused("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top_wrap.v":47)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "~data_round.IIR_Filter_Top" instantiated to "data_round" is swept in optimizing("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+WARN  (NL0002) : The module "~delay.IIR_Filter_Top" instantiated to "delay_cnt_chn" is swept in optimizing("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+WARN  (NL0002) : The module "~delay.IIR_Filter_Top" instantiated to "dsp_acc_coeff_a_y[0].delay_a0_i" is swept in optimizing("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+WARN  (NL0002) : The module "~delay.IIR_Filter_Top" instantiated to "dsp_acc_coeff_a_y[0].delay_casio_a" is swept in optimizing("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+WARN  (NL0002) : The module "~delay.IIR_Filter_Top" instantiated to "dsp_acc_coeff_b_x[0].delay_a0_i" is swept in optimizing("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+WARN  (NL0002) : The module "~delay.IIR_Filter_Top" instantiated to "dsp_acc_coeff_b_x[0].delay_casio_b" is swept in optimizing("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+WARN  (NL0002) : The module "~shift_reg.IIR_Filter_Top" instantiated to "mc_data_shift_x[0].data_shift_x[1].shift_reg_x" is swept in optimizing("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+WARN  (NL0002) : The module "~shift_reg.IIR_Filter_Top" instantiated to "mc_data_shift_y[0].data_shift_y[1].shift_reg" is swept in optimizing("D:\Gowin\Gowin_V1.9.9_x64\IDE\ipcore\IIR_Filter\data\iir_top.v":0)
+[95%] Generate netlist file "C:\Users\Korea\Documents\RT_AudioPS 31\src\iir_filter\temp\IIR_Filter\iir_filter.vg" completed
+Generate template file "C:\Users\Korea\Documents\RT_AudioPS 31\src\iir_filter\temp\IIR_Filter\iir_filter_tmp.v" completed
+[100%] Generate report file "C:\Users\Korea\Documents\RT_AudioPS 31\src\iir_filter\temp\IIR_Filter\iir_filter_syn.rpt.html" completed
+GowinSynthesis finish

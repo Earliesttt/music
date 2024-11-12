@@ -1,0 +1,194 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\Korea\Desktop\RT_AudioPS\src\WM8960_Init\I2C_Init_Dev.v'
+Analyzing Verilog file 'C:\Users\Korea\Desktop\RT_AudioPS\src\WM8960_Init\WM8960_Init.v'
+Analyzing Verilog file 'C:\Users\Korea\Desktop\RT_AudioPS\src\WM8960_Init\i2c_bit_shift.v'
+Analyzing Verilog file 'C:\Users\Korea\Desktop\RT_AudioPS\src\WM8960_Init\i2c_control.v'
+Analyzing Verilog file 'C:\Users\Korea\Desktop\RT_AudioPS\src\WM8960_Init\wm8960_init_table.v'
+Analyzing Verilog file 'C:\Users\Korea\Desktop\RT_AudioPS\src\cmd_ctrl\cmd_ctrl.v'
+Analyzing Verilog file 'C:\Users\Korea\Desktop\RT_AudioPS\src\echo\echo.v'
+Analyzing Verilog file 'C:\Users\Korea\Desktop\RT_AudioPS\src\echo\echo_top.v'
+Undeclared symbol 'echo_Done_left', assumed default net type 'wire'("C:\Users\Korea\Desktop\RT_AudioPS\src\echo\echo_top.v":39)
+Undeclared symbol 'echo_Done_right', assumed default net type 'wire'("C:\Users\Korea\Desktop\RT_AudioPS\src\echo\echo_top.v":53)
+Analyzing Verilog file 'C:\Users\Korea\Desktop\RT_AudioPS\src\fifo\async_fifo.v'
+Analyzing Verilog file 'C:\Users\Korea\Desktop\RT_AudioPS\src\fifo\async_fifo_ctrl.v'
+Analyzing Verilog file 'C:\Users\Korea\Desktop\RT_AudioPS\src\fifo\dpram.v'
+Analyzing Verilog file 'C:\Users\Korea\Desktop\RT_AudioPS\src\fifo_sc_top\fifo_sc_top.v'
+Analyzing Verilog file 'C:\Users\Korea\Desktop\RT_AudioPS\src\fifo_sc_top_v2\fifo_sc_top_v2.v'
+Analyzing Verilog file 'C:\Users\Korea\Desktop\RT_AudioPS\src\gowin_pll\gowin_pll.v'
+Analyzing Verilog file 'C:\Users\Korea\Desktop\RT_AudioPS\src\gowin_ram16sdp\gowin_ram16sdp.v'
+Analyzing Verilog file 'C:\Users\Korea\Desktop\RT_AudioPS\src\i2s\i2s_rx.v'
+Undeclared symbol 'adcfifo_full', assumed default net type 'wire'("C:\Users\Korea\Desktop\RT_AudioPS\src\i2s\i2s_rx.v":129)
+WARN  (EX3801) : Parameter 'state_idle' becomes localparam in 'i2s_rx' with formal parameter declaration list("C:\Users\Korea\Desktop\RT_AudioPS\src\i2s\i2s_rx.v":16)
+WARN  (EX3801) : Parameter 'state_left_data' becomes localparam in 'i2s_rx' with formal parameter declaration list("C:\Users\Korea\Desktop\RT_AudioPS\src\i2s\i2s_rx.v":17)
+WARN  (EX3801) : Parameter 'state_right_data' becomes localparam in 'i2s_rx' with formal parameter declaration list("C:\Users\Korea\Desktop\RT_AudioPS\src\i2s\i2s_rx.v":18)
+WARN  (EX3801) : Parameter 'state_fifo_write' becomes localparam in 'i2s_rx' with formal parameter declaration list("C:\Users\Korea\Desktop\RT_AudioPS\src\i2s\i2s_rx.v":19)
+Analyzing Verilog file 'C:\Users\Korea\Desktop\RT_AudioPS\src\i2s\i2s_tx.v'
+WARN  (EX3801) : Parameter 'state_idle' becomes localparam in 'i2s_tx' with formal parameter declaration list("C:\Users\Korea\Desktop\RT_AudioPS\src\i2s\i2s_tx.v":17)
+WARN  (EX3801) : Parameter 'state_tx_left_data' becomes localparam in 'i2s_tx' with formal parameter declaration list("C:\Users\Korea\Desktop\RT_AudioPS\src\i2s\i2s_tx.v":18)
+WARN  (EX3801) : Parameter 'state_tx_right_data' becomes localparam in 'i2s_tx' with formal parameter declaration list("C:\Users\Korea\Desktop\RT_AudioPS\src\i2s\i2s_tx.v":19)
+Analyzing Verilog file 'C:\Users\Korea\Desktop\RT_AudioPS\src\iir\iir.v'
+Analyzing Verilog file 'C:\Users\Korea\Desktop\RT_AudioPS\src\iir_filter\iir_filter.v'
+Analyzing Verilog file 'C:\Users\Korea\Desktop\RT_AudioPS\src\key_filter\key_filter.v'
+Analyzing Verilog file 'C:\Users\Korea\Desktop\RT_AudioPS\src\reverb\reverb.v'
+Analyzing Verilog file 'C:\Users\Korea\Desktop\RT_AudioPS\src\reverb\reverb_top.v'
+Undeclared symbol 'Reverb_Done_left', assumed default net type 'wire'("C:\Users\Korea\Desktop\RT_AudioPS\src\reverb\reverb_top.v":39)
+Undeclared symbol 'Reverb_Done_right', assumed default net type 'wire'("C:\Users\Korea\Desktop\RT_AudioPS\src\reverb\reverb_top.v":51)
+Analyzing Verilog file 'C:\Users\Korea\Desktop\RT_AudioPS\src\top\RT_AudioPS.v'
+Undeclared symbol 'vol_Go', assumed default net type 'wire'("C:\Users\Korea\Desktop\RT_AudioPS\src\top\RT_AudioPS.v":58)
+Undeclared symbol 'volume_8', assumed default net type 'wire'("C:\Users\Korea\Desktop\RT_AudioPS\src\top\RT_AudioPS.v":59)
+WARN  (EX3638) : 'vol_Go' is already implicitly declared on line 58("C:\Users\Korea\Desktop\RT_AudioPS\src\top\RT_AudioPS.v":245)
+WARN  (EX3638) : 'volume_8' is already implicitly declared on line 59("C:\Users\Korea\Desktop\RT_AudioPS\src\top\RT_AudioPS.v":246)
+WARN  (EX3628) : Redeclaration of ANSI port 'led_up' is not allowed("C:\Users\Korea\Desktop\RT_AudioPS\src\top\RT_AudioPS.v":247)
+WARN  (EX3628) : Redeclaration of ANSI port 'led_down' is not allowed("C:\Users\Korea\Desktop\RT_AudioPS\src\top\RT_AudioPS.v":248)
+Analyzing Verilog file 'C:\Users\Korea\Desktop\RT_AudioPS\src\uart\uart_byte_rx.v'
+Analyzing Verilog file 'C:\Users\Korea\Desktop\RT_AudioPS\src\uart\uart_byte_tx.v'
+Analyzing Verilog file 'C:\Users\Korea\Desktop\RT_AudioPS\src\uart\uart_data_rx.v'
+Analyzing Verilog file 'C:\Users\Korea\Desktop\RT_AudioPS\src\uart\uart_data_tx.v'
+Analyzing Verilog file 'C:\Users\Korea\Desktop\RT_AudioPS\src\volume_control\volume_control.v'
+Analyzing Verilog file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_crc32.v'
+Analyzing Verilog file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v'
+Analyzing included file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_define.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v":327)
+Back to file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v":327)
+Analyzing Verilog file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_mem_ctrl.v'
+Analyzing included file 'C:\Users\Korea\Desktop\RT_AudioPS\impl\gwsynthesis\RTL_GAO\ao_0\gw_ao_top_define.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_mem_ctrl.v":150)
+Back to file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_mem_ctrl.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_mem_ctrl.v":150)
+Analyzing Verilog file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v'
+Analyzing included file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_define.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2738)
+Back to file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2738)
+Analyzing included file 'C:\Users\Korea\Desktop\RT_AudioPS\impl\gwsynthesis\RTL_GAO\ao_0\gw_ao_top_define.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2738)
+Back to file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2738)
+Analyzing included file 'C:\Users\Korea\Desktop\RT_AudioPS\impl\gwsynthesis\RTL_GAO\ao_0\gw_ao_expression.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2738)
+Back to file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2738)
+Analyzing included file 'C:\Users\Korea\Desktop\RT_AudioPS\impl\gwsynthesis\RTL_GAO\ao_0\gw_ao_parameter.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2738)
+Back to file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2738)
+Analyzing Verilog file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v'
+Analyzing included file 'C:\Users\Korea\Desktop\RT_AudioPS\impl\gwsynthesis\RTL_GAO\ao_control\gw_con_top_define.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v":377)
+Back to file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v":377)
+Analyzing included file 'C:\Users\Korea\Desktop\RT_AudioPS\impl\gwsynthesis\RTL_GAO\ao_control\gw_con_parameter.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v":377)
+Back to file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v'("D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v":377)
+Analyzing Verilog file 'D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\gw_jtag.v'
+Analyzing Verilog file 'C:\Users\Korea\Desktop\RT_AudioPS\impl\gwsynthesis\RTL_GAO\gw_gao_top.v'
+Compiling module 'RT_AudioPS'("C:\Users\Korea\Desktop\RT_AudioPS\src\top\RT_AudioPS.v":1)
+Compiling module 'Gowin_PLL'("C:\Users\Korea\Desktop\RT_AudioPS\src\gowin_pll\gowin_pll.v":10)
+Compiling module 'WM8960_Init'("C:\Users\Korea\Desktop\RT_AudioPS\src\WM8960_Init\WM8960_Init.v":17)
+Compiling module 'I2C_Init_Dev'("C:\Users\Korea\Desktop\RT_AudioPS\src\WM8960_Init\I2C_Init_Dev.v":16)
+Compiling module 'wm8960_init_table'("C:\Users\Korea\Desktop\RT_AudioPS\src\WM8960_Init\wm8960_init_table.v":16)
+WARN  (EX1998) : Net 'rom[255][15]' does not have a driver("C:\Users\Korea\Desktop\RT_AudioPS\src\WM8960_Init\wm8960_init_table.v":29)
+Compiling module 'i2c_control'("C:\Users\Korea\Desktop\RT_AudioPS\src\WM8960_Init\i2c_control.v":16)
+Compiling module 'i2c_bit_shift'("C:\Users\Korea\Desktop\RT_AudioPS\src\WM8960_Init\i2c_bit_shift.v":16)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'rdreg_req'("C:\Users\Korea\Desktop\RT_AudioPS\src\WM8960_Init\I2C_Init_Dev.v":149)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'addr_mode'("C:\Users\Korea\Desktop\RT_AudioPS\src\WM8960_Init\I2C_Init_Dev.v":151)
+WARN  (EX2565) : Input 'dacvu' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Korea\Desktop\RT_AudioPS\src\WM8960_Init\I2C_Init_Dev.v":140)
+Compiling module 'i2s_rx'("C:\Users\Korea\Desktop\RT_AudioPS\src\i2s\i2s_rx.v":1)
+Compiling module 'async_fifo(DATA_WIDTH=32,ADDR_WIDTH=8)'("C:\Users\Korea\Desktop\RT_AudioPS\src\fifo\async_fifo.v":1)
+Compiling module 'async_fifo_ctrl(DATA_WIDTH=32,ADDR_WIDTH=8)'("C:\Users\Korea\Desktop\RT_AudioPS\src\fifo\async_fifo_ctrl.v":1)
+Compiling module 'dpram(DATA_WIDTH=32,ADDR_WIDTH=8)'("C:\Users\Korea\Desktop\RT_AudioPS\src\fifo\dpram.v":1)
+Extracting RAM for identifier 'ram'("C:\Users\Korea\Desktop\RT_AudioPS\src\fifo\dpram.v":23)
+Compiling module 'i2s_tx'("C:\Users\Korea\Desktop\RT_AudioPS\src\i2s\i2s_tx.v":1)
+Compiling module 'volume_control'("C:\Users\Korea\Desktop\RT_AudioPS\src\volume_control\volume_control.v":1)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("C:\Users\Korea\Desktop\RT_AudioPS\src\volume_control\volume_control.v":85)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("C:\Users\Korea\Desktop\RT_AudioPS\src\volume_control\volume_control.v":91)
+Compiling module 'key_filter'("C:\Users\Korea\Desktop\RT_AudioPS\src\key_filter\key_filter.v":21)
+Compiling module 'echo_top'("C:\Users\Korea\Desktop\RT_AudioPS\src\echo\echo_top.v":1)
+Compiling module 'echo'("C:\Users\Korea\Desktop\RT_AudioPS\src\echo\echo.v":1)
+Compiling module 'fifo_sc_top'("C:\Users\Korea\Desktop\RT_AudioPS\src\fifo_sc_top\fifo_sc_top.v":493)
+Compiling module '**'("C:\Users\Korea\Desktop\RT_AudioPS\src\fifo_sc_top\fifo_sc_top.v":0)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 13("C:\Users\Korea\Desktop\RT_AudioPS\src\echo\echo.v":57)
+WARN  (EX3791) : Expression size 14 truncated to fit in target size 13("C:\Users\Korea\Desktop\RT_AudioPS\src\echo\echo.v":64)
+Compiling module 'reverb_top'("C:\Users\Korea\Desktop\RT_AudioPS\src\reverb\reverb_top.v":1)
+Compiling module 'reverb'("C:\Users\Korea\Desktop\RT_AudioPS\src\reverb\reverb.v":1)
+Compiling module 'fifo_sc_top_v2'("C:\Users\Korea\Desktop\RT_AudioPS\src\fifo_sc_top_v2\fifo_sc_top_v2.v":321)
+Compiling module '**'("C:\Users\Korea\Desktop\RT_AudioPS\src\fifo_sc_top_v2\fifo_sc_top_v2.v":0)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Users\Korea\Desktop\RT_AudioPS\src\reverb\reverb.v":73)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("C:\Users\Korea\Desktop\RT_AudioPS\src\reverb\reverb.v":81)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 10 for port 'delay_samples'("C:\Users\Korea\Desktop\RT_AudioPS\src\reverb\reverb_top.v":35)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 5 for port 'feedback_gain'("C:\Users\Korea\Desktop\RT_AudioPS\src\reverb\reverb_top.v":37)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 5 for port 'wet_dry_mix'("C:\Users\Korea\Desktop\RT_AudioPS\src\reverb\reverb_top.v":38)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 10 for port 'delay_samples'("C:\Users\Korea\Desktop\RT_AudioPS\src\reverb\reverb_top.v":47)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 5 for port 'feedback_gain'("C:\Users\Korea\Desktop\RT_AudioPS\src\reverb\reverb_top.v":49)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 5 for port 'wet_dry_mix'("C:\Users\Korea\Desktop\RT_AudioPS\src\reverb\reverb_top.v":50)
+Compiling module 'iir'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir\iir.v":1)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("C:\Users\Korea\Desktop\RT_AudioPS\src\iir\iir.v":124)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("C:\Users\Korea\Desktop\RT_AudioPS\src\iir\iir.v":170)
+Compiling module 'IIR_Filter_Top'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir_filter\iir_filter.v":3050)
+Compiling module '**'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir_filter\iir_filter.v":0)
+Compiling module '**'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir_filter\iir_filter.v":0)
+Compiling module '**'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir_filter\iir_filter.v":0)
+Compiling module '**'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir_filter\iir_filter.v":0)
+Compiling module '**'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir_filter\iir_filter.v":0)
+Compiling module '**'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir_filter\iir_filter.v":0)
+Compiling module '**'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir_filter\iir_filter.v":0)
+Compiling module '**'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir_filter\iir_filter.v":0)
+Compiling module '**'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir_filter\iir_filter.v":0)
+Compiling module '**'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir_filter\iir_filter.v":0)
+Compiling module '**'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir_filter\iir_filter.v":0)
+Compiling module '**'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir_filter\iir_filter.v":0)
+Compiling module '**'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir_filter\iir_filter.v":0)
+Compiling module '**'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir_filter\iir_filter.v":0)
+Compiling module '**'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir_filter\iir_filter.v":0)
+Compiling module '**'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir_filter\iir_filter.v":0)
+Compiling module '**'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir_filter\iir_filter.v":0)
+Compiling module '**'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir_filter\iir_filter.v":0)
+Compiling module '**'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir_filter\iir_filter.v":0)
+Compiling module '**'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir_filter\iir_filter.v":0)
+Compiling module '**'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir_filter\iir_filter.v":0)
+Compiling module '**'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir_filter\iir_filter.v":0)
+Compiling module '**'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir_filter\iir_filter.v":0)
+Compiling module '**'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir_filter\iir_filter.v":0)
+Compiling module '**'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir_filter\iir_filter.v":0)
+WARN  (EX3670) : Actual bit length 16 differs from formal bit length 32 for port 'coeff_a'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir\iir.v":273)
+WARN  (EX3670) : Actual bit length 16 differs from formal bit length 32 for port 'coeff_b'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir\iir.v":274)
+WARN  (EX3670) : Actual bit length 16 differs from formal bit length 32 for port 'coeff_a'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir\iir.v":288)
+WARN  (EX3670) : Actual bit length 16 differs from formal bit length 32 for port 'coeff_b'("C:\Users\Korea\Desktop\RT_AudioPS\src\iir\iir.v":289)
+Compiling module 'uart_data_rx(DATA_WIDTH=24)'("C:\Users\Korea\Desktop\RT_AudioPS\src\uart\uart_data_rx.v":41)
+Compiling module 'uart_byte_rx'("C:\Users\Korea\Desktop\RT_AudioPS\src\uart\uart_byte_rx.v":20)
+Compiling module 'uart_data_tx(DATA_WIDTH=24)'("C:\Users\Korea\Desktop\RT_AudioPS\src\uart\uart_data_tx.v":42)
+Compiling module 'uart_byte_tx'("C:\Users\Korea\Desktop\RT_AudioPS\src\uart\uart_byte_tx.v":20)
+Compiling module 'cmd_ctrl'("C:\Users\Korea\Desktop\RT_AudioPS\src\cmd_ctrl\cmd_ctrl.v":20)
+Compiling module 'Gowin_RAM16SDP'("C:\Users\Korea\Desktop\RT_AudioPS\src\gowin_ram16sdp\gowin_ram16sdp.v":10)
+WARN  (EX3670) : Actual bit length 2 differs from formal bit length 4 for port 'DO'("C:\Users\Korea\Desktop\RT_AudioPS\src\gowin_ram16sdp\gowin_ram16sdp.v":180)
+WARN  (EX3670) : Actual bit length 2 differs from formal bit length 4 for port 'DI'("C:\Users\Korea\Desktop\RT_AudioPS\src\gowin_ram16sdp\gowin_ram16sdp.v":181)
+WARN  (EX3670) : Actual bit length 2 differs from formal bit length 4 for port 'DO'("C:\Users\Korea\Desktop\RT_AudioPS\src\gowin_ram16sdp\gowin_ram16sdp.v":250)
+WARN  (EX3670) : Actual bit length 2 differs from formal bit length 4 for port 'DI'("C:\Users\Korea\Desktop\RT_AudioPS\src\gowin_ram16sdp\gowin_ram16sdp.v":251)
+WARN  (EX3670) : Actual bit length 2 differs from formal bit length 4 for port 'DO'("C:\Users\Korea\Desktop\RT_AudioPS\src\gowin_ram16sdp\gowin_ram16sdp.v":320)
+WARN  (EX3670) : Actual bit length 2 differs from formal bit length 4 for port 'DI'("C:\Users\Korea\Desktop\RT_AudioPS\src\gowin_ram16sdp\gowin_ram16sdp.v":321)
+WARN  (EX3670) : Actual bit length 2 differs from formal bit length 4 for port 'DO'("C:\Users\Korea\Desktop\RT_AudioPS\src\gowin_ram16sdp\gowin_ram16sdp.v":390)
+WARN  (EX3670) : Actual bit length 2 differs from formal bit length 4 for port 'DI'("C:\Users\Korea\Desktop\RT_AudioPS\src\gowin_ram16sdp\gowin_ram16sdp.v":391)
+WARN  (EX1998) : Net 'send_en' does not have a driver("C:\Users\Korea\Desktop\RT_AudioPS\src\top\RT_AudioPS.v":327)
+Compiling module 'gw_gao'("C:\Users\Korea\Desktop\RT_AudioPS\impl\gwsynthesis\RTL_GAO\gw_gao_top.v":1)
+Compiling module 'GW_JTAG'("D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\gw_jtag.v":1)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_mem_ctrl.v":0)
+Extracting RAM for identifier '**'("D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_mem_ctrl.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_crc32.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v":0)
+Trying to combine GAO to RTL design
+NOTE  (EX0101) : Current top module is "RT_AudioPS"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "echo_top" instantiated to "echo_top_inst" is swept in optimizing("C:\Users\Korea\Desktop\RT_AudioPS\src\top\RT_AudioPS.v":282)
+WARN  (NL0002) : The module "echo" instantiated to "echo_left" is swept in optimizing("C:\Users\Korea\Desktop\RT_AudioPS\src\echo\echo_top.v":40)
+WARN  (NL0002) : The module "fifo_sc_top" instantiated to "fifo_sc_top_inst" is swept in optimizing("C:\Users\Korea\Desktop\RT_AudioPS\src\echo\echo.v":36)
+WARN  (NL0002) : The module "~fifo_sc.fifo_sc_top" instantiated to "fifo_sc_inst" is swept in optimizing("C:\Users\Korea\Desktop\RT_AudioPS\src\fifo_sc_top\fifo_sc_top.v":529)
+WARN  (NL0002) : The module "echo" instantiated to "echo_right" is swept in optimizing("C:\Users\Korea\Desktop\RT_AudioPS\src\echo\echo_top.v":54)
+WARN  (NL0002) : The module "fifo_sc_top" instantiated to "fifo_sc_top_inst" is swept in optimizing("C:\Users\Korea\Desktop\RT_AudioPS\src\echo\echo.v":36)
+WARN  (NL0002) : The module "~fifo_sc.fifo_sc_top" instantiated to "fifo_sc_inst" is swept in optimizing("C:\Users\Korea\Desktop\RT_AudioPS\src\fifo_sc_top\fifo_sc_top.v":529)
+[95%] Generate netlist file "C:\Users\Korea\Desktop\RT_AudioPS\impl\gwsynthesis\audio_loopback.vg" completed
+[100%] Generate report file "C:\Users\Korea\Desktop\RT_AudioPS\impl\gwsynthesis\audio_loopback_syn.rpt.html" completed
+GowinSynthesis finish

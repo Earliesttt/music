@@ -1,0 +1,181 @@
+{
+ "Device" : "GW5A-25A",
+ "Files" : [
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/WM8960_Init/I2C_Init_Dev.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/WM8960_Init/WM8960_Init.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/WM8960_Init/i2c_bit_shift.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/WM8960_Init/i2c_control.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/WM8960_Init/wm8960_init_table.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/cmd_ctrl/cmd_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/csdn/csdn.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/distortion/distortion.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/echo/echo.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/echo/echo_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/eqa/eqa.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/eqa/eqa_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/fifo/async_fifo.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/fifo/async_fifo_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/fifo/dpram.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/fifo_sc_top/fifo_sc_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/fifo_sc_top_v2/fifo_sc_top_v2.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/fifo_top/fifo_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/gowin_clkdiv_4/gowin_clkdiv_4.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/gowin_clkdiv_8/gowin_clkdiv_8.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/gowin_pll/gowin_pll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/gowin_ram16sdp/gowin_ram16sdp.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/i2s/i2s_rx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/i2s/i2s_tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/iir/iir.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/iir_filter/iir_filter.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/iir_filter_eqa1/iir_filter_eqa1.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/iir_filter_eqa2/iir_filter_eqa2.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/iir_filter_eqa3/iir_filter_eqa3.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/iir_filter_eqa4/iir_filter_eqa4.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/iir_filter_eqa5/iir_filter_eqa5.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/iir_filter_reverb/iir_filter_reverb.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/key_filter/key_filter.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/micb/micb.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/reverb/reverb.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/reverb/reverb_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/top/RT_AudioPS.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/uart/uart_byte_rx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/uart/uart_byte_tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/uart/uart_data_rx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/uart/uart_data_tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Korea/Documents/RT_AudioPS 31/src/volume_control/volume_control.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/Korea/Documents/RT_AudioPS 31/impl/temp/rtl_parser.result",
+ "Top" : "RT_AudioPS",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

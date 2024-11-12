@@ -1,0 +1,14 @@
+-d C:\Users\Korea\Documents\RT_AudioPS 31\impl\gwsynthesis\RT_AudioPS.vg
+-p GW5A-25A-UBGA324-2
+-pn GW5A-LV25UG324C2/I1
+-cst C:\Users\Korea\Documents\RT_AudioPS 31\src\audio_loopback.cst
+-cfg C:\Users\Korea\Documents\RT_AudioPS 31\impl\pnr\device.cfg
+-gao_crc 0111001100000110
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23
+-rtl_gao
